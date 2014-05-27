@@ -1,6 +1,12 @@
 gen_bunny
 ---------
 
+Why another fork?
+=================
+gen_bunny was implemented a long time ago and still uses an old version of the AMQP client.
+This fork uses version 3.3.1 of the AMQP client. **DISCLAIMER:** **Use at your own risks!**
+
+
 gen_bunny is a RabbitMQ_ client library for erlang whose primary goal is to be
 easy to use.  Especially for simple publisher and consumer applications.
 
