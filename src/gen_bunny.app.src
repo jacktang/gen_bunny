@@ -2,7 +2,7 @@
 {application,
  gen_bunny,
  [{description,  "gen_bunny"},
-  {vsn,          "0.1"},
+  {vsn,          "0.1.1"},
   {modules,      []},
   {registered,   []},
   {mod,          {gen_bunny_app, []}},

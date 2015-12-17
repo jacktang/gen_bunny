@@ -3,9 +3,19 @@ script: "make test int_test"
 notifications:
   email: false
 otp_release:
-  - R14B03
-  - R14B02
-  - R14B01
+   - 17.0
+   - 17.0-rc1
+   - R16B03-1
+   - R16B03
+   - R16B02
+   - R16B01
+   - R15B03
+   - R15B02
+   - R15B01
+   - R14B04
+   - R14B03
+   - R14B02
 branches:
   only:
-    - master 
+    - master
+    - feature/travis
